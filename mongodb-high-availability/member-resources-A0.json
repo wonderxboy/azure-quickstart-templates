@@ -89,16 +89,6 @@
               },
               "caching": "ReadOnly",
               "createOption": "Empty"
-            },
-            {
-              "name": "dataDisk1",
-              "diskSizeGB": "[parameters('machineSettings').dataDiskSize]",
-              "lun": 1,
-              "vhd": {
-                "Uri": "[concat(parameters('storageSettings').destinationVhdsContainer, 'vm', parameters('machineSettings').machineIndex, 'dataDisk1.vhd')]"
-              },
-              "caching": "ReadOnly",
-              "createOption": "Empty"
             }
           ]
         },
