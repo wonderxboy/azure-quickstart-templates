@@ -27,7 +27,7 @@
     "vmNameMaster": "swarm-master-",
     "vmNameNode": "swarm-node-",
     "vmSizeMaster": "Standard_A0",
-    "vmSizeNode": "Standard_A2",
+    "vmSizeNode": "Standard_A0",
     "availabilitySetMasters": "swarm-masters-set",
     "availabilitySetNodes": "swarm-nodes-set",
     "osImagePublisher": "CoreOS",
